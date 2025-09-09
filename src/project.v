@@ -11,8 +11,7 @@ module tt_um_voting_machine (
     input  wire       clk,     // system clock
     input  wire       rst_n    // active-low reset
 );
-
-    //-----------------------------------------
+//-----------------------------------------
     // Signal assignments
     //-----------------------------------------
     wire [3:0] voter   = ui_in[3:0];
